@@ -101,7 +101,7 @@ namespace AutoRename
 
             this.ClientSize = new Size(ClientSize.Width, grpRename.Bottom + MARGIN);
             this.DoubleBuffered = true;
-            this.Icon = new Icon(Assembly.GetCallingAssembly().GetManifestResourceStream("AutoRename.Icon.ico"));
+            this.Icon = new Icon(Assembly.GetCallingAssembly().GetManifestResourceStream("AutoRename.icon.ico"));
             this.KeyPreview = true;
             this.MinimumSize = this.Size;
             this.Text = "Auto Rename";
